@@ -145,10 +145,13 @@ table {
 img {
   text-align: center;
   width: 100%;
+  border-radius: 50%;
+  border: 2px solid
 }
 
 .img-container {
   display: inline-block;
+
   text-align: center;
   width: 100px;
   margin-bottom: 1rem;
@@ -170,4 +173,7 @@ button {
   border-radius: 10px;
   padding: 0.5rem;
   border: 1px solid;
+}
+i:hover {
+  color: rgb(5, 87, 117);
 }
