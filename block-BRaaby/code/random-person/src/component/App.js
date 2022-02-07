@@ -66,27 +66,27 @@ class App extends React.Component {
             <h2>{this.handleUI(this.state.selected)}</h2>
             <div className="icons">
               <i
-                onClick={() => this.handleComponent("name")}
+                onMouseOver={() => this.handleComponent("name")}
                 className="fas fa-user"
               ></i>
               <i
-                onClick={() => this.handleComponent("email")}
+                onMouseOver={() => this.handleComponent("email")}
                 className="fas fa-envelope"
               ></i>
               <i
-                onClick={() => this.handleComponent("birth")}
+                onMouseOver={() => this.handleComponent("birth")}
                 className="fas fa-calendar-times"
               ></i>
               <i
-                onClick={() => this.handleComponent("address")}
+                onMouseOver={() => this.handleComponent("address")}
                 className="fas fa-map"
               ></i>
               <i
-                onClick={() => this.handleComponent("phone")}
+                onMouseOver={() => this.handleComponent("phone")}
                 className="fas fa-phone-square"
               ></i>
               <i
-                onClick={() => this.handleComponent("password")}
+                onMouseOver={() => this.handleComponent("password")}
                 className="fas fa-lock"
               ></i>
             </div>
